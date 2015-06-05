@@ -1,4 +1,4 @@
-diabetesRisk <- function(weight, height) weight/(height^2)
+BMIcalculator <- function(weight, height) weight/(height^2)
 
 shinyServer(
   function(input, output) {
